@@ -1,0 +1,46 @@
+name: Update 2026 Contributions
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs every day at midnight UTC
+  push:
+    branches: [main]
+  workflow_dispatch:       # lets you trigger it manually from GitHub Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch 2026 contributions via GitHub GraphQL API
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RESPONSE=$(curl -s -X POST https://api.github.com/graphql \
+            -H "Authorization: bearer $GH_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "query": "{ user(login: \"AHSAN-MEHMOOD\") { contributionsCollection(from: \"2026-01-01T00:00:00Z\", to: \"2026-12-31T23:59:59Z\") { contributionCalendar { totalContributions } } } }"
+            }')
+
+          TOTAL=$(echo "$RESPONSE" | python3 -c "
+          import sys, json
+          data = json.load(sys.stdin)
+          print(data['data']['user']['contributionsCollection']['contributionCalendar']['totalContributions'])
+          ")
+
+          echo "{\"total\": $TOTAL, \"year\": 2026, \"updated\": \"$(date -u +%Y-%m-%d)\"}" > contribs.json
+          echo "2026 contributions: $TOTAL"
+
+      - name: Commit updated contribs.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add contribs.json
+          git diff --staged --quiet || git commit -m "chore: update 2026 contribution count [skip ci]"
+          git push
