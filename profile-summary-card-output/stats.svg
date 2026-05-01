@@ -1,0 +1,21 @@
+<svg width="495" height="195" viewBox="0 0 495 195" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #1a1b27; rx: 10; }
+    .title { fill: #70a5fd; font-family: 'Segoe UI', sans-serif; font-size: 17px; font-weight: 700; }
+    .label { fill: #a9b1d6; font-family: 'Segoe UI', sans-serif; font-size: 13px; }
+    .value { fill: #ffffff; font-family: 'Segoe UI', sans-serif; font-size: 13px; font-weight: 600; }
+    .icon { fill: #70a5fd; }
+  </style>
+  <rect width="495" height="195" rx="10" fill="#1a1b27"/>
+  <text x="25" y="35" class="title">📊 Ahsan's GitHub Stats (2026)</text>
+  <text x="25" y="75" class="label">⭐ Total Stars Earned:</text>
+  <text x="300" y="75" class="value">0</text>
+  <text x="25" y="100" class="label">🔨 Commits (2026):</text>
+  <text x="300" y="100" class="value">12</text>
+  <text x="25" y="125" class="label">🔀 Pull Requests:</text>
+  <text x="300" y="125" class="value">0</text>
+  <text x="25" y="150" class="label">🐛 Issues:</text>
+  <text x="300" y="150" class="value">0</text>
+  <text x="25" y="175" class="label">🗓️ Total Contributions (2026):</text>
+  <text x="300" y="175" class="value">119</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg width="495" height="205" viewBox="0 0 495 205" xmlns="http://www.w3.org/2000/svg">
+  <rect width="495" height="205" rx="10" fill="#1a1b27"/>
+  <text x="25" y="35" fill="#70a5fd" font-family="Segoe UI,sans-serif" font-size="17" font-weight="700">💻 Most Used Languages</text>
+  <text x="25" y="75" fill="#a9b1d6" font-family="Segoe UI,sans-serif" font-size="12">Based on repository code size</text>
+  <rect x="25" y="120" width="414" height="8" rx="4" fill="#DA5B0B"/><rect x="439" y="120" width="26" height="8" rx="4" fill="#3572A5"/><rect x="465" y="120" width="4" height="8" rx="4" fill="#f1e05a"/><rect x="469" y="120" width="0" height="8" rx="4" fill="#663399"/>
+  <circle cx="31" cy="141" r="5" fill="#DA5B0B"/><text x="41" y="145" fill="#a9b1d6" font-family="Segoe UI,sans-serif" font-size="12">Jupyter Notebook 93.0%</text><circle cx="186" cy="141" r="5" fill="#3572A5"/><text x="196" y="145" fill="#a9b1d6" font-family="Segoe UI,sans-serif" font-size="12">Python 6.0%</text><circle cx="341" cy="141" r="5" fill="#f1e05a"/><text x="351" y="145" fill="#a9b1d6" font-family="Segoe UI,sans-serif" font-size="12">JavaScript 0.9%</text><circle cx="31" cy="163" r="5" fill="#663399"/><text x="41" y="167" fill="#a9b1d6" font-family="Segoe UI,sans-serif" font-size="12">CSS 0.1%</text>
+</svg>
