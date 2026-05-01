@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=AHSAN-MEHMOOD&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views" />
 &nbsp;&nbsp;
 <a href="https://linkedin.com/in/ahsan-mehmood-ai"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 &nbsp;&nbsp;
@@ -149,12 +149,20 @@ Designed and evaluated **multi-step reasoning pipelines** for Google Gemini — 
 
 </div>
 
-<!-- Current year contributions only -->
+---
+
+## 🗓️ 2026 Contributions — Live Counter
+
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AHSAN-MEHMOOD&theme=tokyo-night&hide_border=true&area=true&custom_title=2026+Contribution+Graph" />
+<!-- This badge reads from contribs.json which is auto-updated by GitHub Actions every day -->
+![2026 Contributions](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FAHSAN-MEHMOOD%2FAHSAN-MEHMOOD%2Fmain%2Fcontribs.json&query=%24.total&label=Contributions+in+2026&style=for-the-badge&color=00D4FF&logo=github&logoColor=white)
 
 </div>
+
+> ⚙️ **How it works:** A GitHub Action runs daily and on every push. It calls the GitHub GraphQL API, counts all your contributions from Jan 1 2026 → today, and saves the number to `contribs.json` in this repo. The badge above reads that file automatically — so it always shows the correct 2026 count.
+>
+> **Setup:** Add the workflow file below to `.github/workflows/update-contribs.yml` in this repo. That's it!
 
 ---
 
