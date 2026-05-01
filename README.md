@@ -137,15 +137,9 @@ Designed and evaluated **multi-step reasoning pipelines** for Google Gemini — 
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=AHSAN-MEHMOOD&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=AHSAN-MEHMOOD&show_icons=true&theme=tokyonight&include_all_commits=false&count_private=true&hide_border=true" />
 &nbsp;
 <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AHSAN-MEHMOOD&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=AHSAN-MEHMOOD&theme=tokyonight&hide_border=true" />
 
 </div>
 
@@ -155,14 +149,10 @@ Designed and evaluated **multi-step reasoning pipelines** for Google Gemini — 
 
 <div align="center">
 
-<!-- This badge reads from contribs.json which is auto-updated by GitHub Actions every day -->
+<!-- Auto-updated daily by GitHub Actions — reads from contribs.json -->
 ![2026 Contributions](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FAHSAN-MEHMOOD%2FAHSAN-MEHMOOD%2Fmain%2Fcontribs.json&query=%24.total&label=Contributions+in+2026&style=for-the-badge&color=00D4FF&logo=github&logoColor=white)
 
 </div>
-
-> ⚙️ **How it works:** A GitHub Action runs daily and on every push. It calls the GitHub GraphQL API, counts all your contributions from Jan 1 2026 → today, and saves the number to `contribs.json` in this repo. The badge above reads that file automatically — so it always shows the correct 2026 count.
->
-> **Setup:** Add the workflow file below to `.github/workflows/update-contribs.yml` in this repo. That's it!
 
 ---
 
