@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=AHSAN-MEHMOOD&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views" />
 &nbsp;&nbsp;
 <a href="https://linkedin.com/in/ahsan-mehmood-ai"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 &nbsp;&nbsp;
